@@ -6,12 +6,7 @@ just write:
 php artisan db:seed
 this migrates all seeders together
 
-## To show images
-images is stored in storage/app/public/images
-run:  php artisan storage:link
-لانشاء رابط رمزي لمجلد storage/app/public 
-في مجلد
-public
+ 
 
 ## Run e-commerce project
 just type http://127.0.0.1:8000/ on your browser and you will be directed to the home page
@@ -30,6 +25,10 @@ user operation can ne done using api:
 browes all products, browes products by category and add order,
 *note about add order api*: in request body i add product name only, i use Auth::id() to get user id, but to work properly we should add user token in the request, 
 قرات انو في طريقة لنضيف قيمة التوكن بمتحولات البيئه ل انسومنيا بهالحال ماعاد مندخل القيم يدويا، بس ماضل وقت جربا
+
+
+## APIs collection link:
+https://gist.github.com/AlaaNajeeb/86bf059cdc9b7d0f81e578644bf33138
 
 
 
